@@ -9,13 +9,13 @@ Each folder contains the completed, commented code, the data, and an individual 
 ### Convolutional Neural Network for Tomato Leaf Disease Classification
 
 
-### Support Vector Classifier for Raisin Classification
+[//]: # "### Support Vector Classifier for Raisin Classification"
 
 
-### Gini Impurity Calculation
+[//]: # "### Gini Impurity Calculation"
 
 
-### Linear Regression with Goodreads books
+[//]: # "### Linear Regression with Goodreads books"
 
 
-### Random Forest to Detect Room Occupancy
+[//]: # "### Random Forest to Detect Room Occupancy"
