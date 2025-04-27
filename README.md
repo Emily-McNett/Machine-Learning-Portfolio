@@ -12,6 +12,9 @@ KMeans clustering is an unsupervised learning algorithm that partitions a datase
 
 This program is used to assist in the selection of yarn and yarn colors from a photo for use in various fiber arts. After uploading a photo and deciding on the number of dominant colors in an image, the dominant colors of the image, found through KMeans clustering, will be matched to the closest yarn color in the dataset. Users will then be able to compare the ‘true’ colors to the selected yarn.
 
+##### Folder Link
+[KMeans-Clustering](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/KMeans-Clustering)
+
 
 ### Convolutional Neural Network for Tomato Leaf Disease Classification
 
