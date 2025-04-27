@@ -77,7 +77,7 @@ Running KMeans and then the find_closest_yarn function produces the results belo
 
 <img src="https://github.com/user-attachments/assets/dabf628c-09f3-4733-b42d-d13bbcc5631c" alt="Nature Photo Final Yarn Colors" width="300"/>
 
-<img src="https://github.com/user-attachments/assets/4a22bc37-5b0e-4755-98cf-ea760d4d65de" alt="Nature Photo Final Yarn Color Names" width="300"/>
+<img src="https://github.com/user-attachments/assets/4a22bc37-5b0e-4755-98cf-ea760d4d65de" alt="Nature Photo Final Yarn Color Names" width="100"/>
 
 The created yarn pallete brightens many of the colors. However, I believe including more high-end yarns in the dataset would provide the ability to see closer color options. With this in mind, the provided set is a good base when looking to capture the colors of the image.
 
