@@ -17,6 +17,16 @@ This program is used to assist in the selection of yarn and yarn colors from a p
 
 
 ### Convolutional Neural Network for Tomato Leaf Disease Classification
+##### Machine Learning Technique
+
+A convolutional neural network is a supervised deep learning algorithm. As an expansion of artificial neural networks, they are used for image recognition and classification tasks. 
+
+##### Program's Purpose
+
+This program is used to identify early and late stage blight in photos of tomato leaves. Using a dataset that contains lab and wild photos of healthy, early blight infected, and late blight infected tomato leaves, the network classifies each type in order to work towards helping amateur tomato gardeners identify blight with their own photos of their plants. 
+
+##### Folder Link
+[Convolutional-Neural-Network](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Convolutional-Neural-Network)
 
 
 [//]: # "### Support Vector Classifier for Raisin Classification"
