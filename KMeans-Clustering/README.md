@@ -35,49 +35,49 @@ This project also contains a dataset of yarn colors by brand, name, and hex code
 
 ##### Stout Blanket
 
-<img src="https://github.com/Emily-McNett/Machine-Learning-Portfolio/blob/main/KMeans-Clustering/Stout_Blanket.JPEG" alt="Stout Blanket" width="300"/>
+<img src="https://github.com/Emily-McNett/Machine-Learning-Portfolio/blob/main/KMeans-Clustering/Stout_Blanket.JPEG" alt="Stout Blanket" width="500"/>
 
 After loading in the Stout_Blanket image, the elbow graph below is displayed. For the purposes of this image, I found that <b>six</b> clusters created an appropriate color palette. From this palette, I was able to avoid the complications that come with shadows impacting RGB values while also gaining greater input on the final color choices.
 
-<img src="https://github.com/user-attachments/assets/d27f99ab-5aa1-43db-ac48-20e193dfa463" alt="Stout Blanket Elbow Graph" width="300"/>
+<img src="https://github.com/user-attachments/assets/d27f99ab-5aa1-43db-ac48-20e193dfa463" alt="Stout Blanket Elbow Graph" width="500"/>
 
 After altering the num_clusters value, the dominant colors are found via the KMeans algorithm. These values are then run through the find_closest_yarn function. This function uses euclidean distance between the clustered RGB value and the dataset RGB values to find the closest matching yarn. Once all closest yarns are calculated the below visualization is displayed to show the clustered colors on top and the matching yarn colors on bottom. Alongside this visualization, the yarn brand, color, and hex code are printed following the order of the visualization from left to right.
 
-<img src="https://github.com/user-attachments/assets/0313c0ba-dab4-4dd3-a4b6-2ad131c2c86a" alt="Stout Blanket Final Yarn Colors" width="300"/>
+<img src="https://github.com/user-attachments/assets/0313c0ba-dab4-4dd3-a4b6-2ad131c2c86a" alt="Stout Blanket Final Yarn Colors" width="500"/>
 
-<img src="https://github.com/user-attachments/assets/a639fcaa-5f1d-4cca-befb-12c71d532308" alt="Stout Blanket Final Yarn Color Names" width="300"/>
+<img src="https://github.com/user-attachments/assets/a639fcaa-5f1d-4cca-befb-12c71d532308" alt="Stout Blanket Final Yarn Color Names" width="500"/>
 
 From this created palette, I chose the two middle colors of Off White and Denim Heather as the best options for attempting to recreate the initially provided blanket.
 
 ##### Camping Photo
 
-<img src="https://github.com/Emily-McNett/Machine-Learning-Portfolio/blob/main/KMeans-Clustering/Camping_Photo.JPEG" alt="Camping Photo" width="300"/>
+<img src="https://github.com/Emily-McNett/Machine-Learning-Portfolio/blob/main/KMeans-Clustering/Camping_Photo.JPEG" alt="Camping Photo" width="500"/>
 
 After loading in the Camping_Photo image, the elbow graph is displayed. From this graph, I decided that <b>six</b> clusters would once again be the best choice in creating a more thorough color palette. 
 
-<img src="https://github.com/user-attachments/assets/a15610e7-e6ed-4c94-85e4-b6b0d72d4f55" alt="Camping Photo Elbow Graph" width="300"/>
+<img src="https://github.com/user-attachments/assets/a15610e7-e6ed-4c94-85e4-b6b0d72d4f55" alt="Camping Photo Elbow Graph" width="500"/>
 
 Running KMeans and then the find_closest_yarn function produces the results below. 
 
-<img src="https://github.com/user-attachments/assets/cd1580c1-b7d4-433a-be79-bbc459f87b73" alt="Camping Photo Final Yarn Color Names" width="300"/>
+<img src="https://github.com/user-attachments/assets/cd1580c1-b7d4-433a-be79-bbc459f87b73" alt="Camping Photo Final Yarn Color Names" width="500"/>
 
-<img src="https://github.com/user-attachments/assets/172dc5b9-5e72-42d4-9455-dbc54109cdc7" alt="Camping Photo Final Yarn Colors" width="300"/>
+<img src="https://github.com/user-attachments/assets/172dc5b9-5e72-42d4-9455-dbc54109cdc7" alt="Camping Photo Final Yarn Colors" width="500"/>
 
 From this created palette, the color choices may seem a bit strange. But, our bright blue tents are iconic to our trips and Bernat's Peacock appears to be an excellent choice for integrating these memories into a crochet project.
 
 ##### Nature Photo
 
-<img src="https://github.com/Emily-McNett/Machine-Learning-Portfolio/blob/main/KMeans-Clustering/Nature_Photo.JPEG" alt="Nature Photo" width="300"/>
+<img src="https://github.com/Emily-McNett/Machine-Learning-Portfolio/blob/main/KMeans-Clustering/Nature_Photo.JPEG" alt="Nature Photo" width="500"/>
 
 After loading in the Nature_Photo image, the elbow graph is displayed. From this graph, I decided that <b>ten</b> clusters would bring the variety of earth tones that are required to bring this image into the fiber arts world.
 
-<img src="https://github.com/user-attachments/assets/fc51f53d-4579-42fd-aeb3-8581840e727f" alt="Nature Photo Elbow Graph" width="300"/>
+<img src="https://github.com/user-attachments/assets/fc51f53d-4579-42fd-aeb3-8581840e727f" alt="Nature Photo Elbow Graph" width="500"/>
 
 Running KMeans and then the find_closest_yarn function produces the results below. 
 
-<img src="https://github.com/user-attachments/assets/dabf628c-09f3-4733-b42d-d13bbcc5631c" alt="Nature Photo Final Yarn Colors" width="300"/>
+<img src="https://github.com/user-attachments/assets/dabf628c-09f3-4733-b42d-d13bbcc5631c" alt="Nature Photo Final Yarn Colors" width="500"/>
 
-<img src="https://github.com/user-attachments/assets/4a22bc37-5b0e-4755-98cf-ea760d4d65de" alt="Nature Photo Final Yarn Color Names" width="100"/>
+<img src="https://github.com/user-attachments/assets/4a22bc37-5b0e-4755-98cf-ea760d4d65de" alt="Nature Photo Final Yarn Color Names" width="500"/>
 
 The created yarn pallete brightens many of the colors. However, I believe including more high-end yarns in the dataset would provide the ability to see closer color options. With this in mind, the provided set is a good base when looking to capture the colors of the image.
 
