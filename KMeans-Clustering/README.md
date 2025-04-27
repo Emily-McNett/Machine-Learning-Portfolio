@@ -1,19 +1,19 @@
 # KMeans Clustering for Yarn Selection
 
-### Overview
+## Overview
 
-##### Machine Learning Technique
+#### Machine Learning Technique
 
 KMeans clustering is an unsupervised learning algorithm that partitions a dataset into 'k' clusters. The algorithm begins by randomly selecting 'k' centroids (datapoints at the center of each cluster). Each data point left over is then assigned to the nearest centroid based on the euclidean distance. Centroids are then recalculated and changed to be the mean of all of the datapoints for each cluster. This process of calculation and reassignment is repeated until the position of the centroids no longer changes.
 
 
 One technique, and the one I used, to find the optimal 'k' is to create a visualization called an elbow graph. In this graph, the 'elbow' refers to the point where an additional number of clusters no longer notably impacts the results. 
 
-##### Program's Purpose
+#### Program's Purpose
 
 This program is used to assist in the selection of yarn and yarn colors from a photo for use in various fiber arts. After uploading a photo and deciding on the number of dominant colors in an image, the dominant colors of the image, found through KMeans clustering, will be matched to the closest yarn color in the dataset. Users will then be able to compare the ‘true’ colors to the selected yarn.
 
-### Data
+## Data
 
 This project contains three example photos that I have taken. These photos are included for the following reasons:
 
@@ -31,7 +31,7 @@ This image was added as a challenge to myself and the program. There are a lot o
 
 This project also contains a dataset of yarn colors by brand, name, and hex code. These colors were pulled from the [Yarn Colorway Finder](https://temperature-blanket.com/). As this program was for more personal purposes, I only pulled yarn from brands that I was familiar with and would be likely to purchase from. However, all of their yarns can be found [here](https://github.com/jdvlpr/Temperature-Blanket-Web-App/tree/main/src/lib/yarns).
 
-### Project Run Throughs 
+## Project Run Throughs 
 
 ##### Stout Blanket
 
@@ -49,7 +49,7 @@ After altering the num_clusters value, the dominant colors are found via the KMe
 
 From this created palette, I chose the two middle colors of Off White and Denim Heather as the best options for attempting to recreate the initially provided blanket.
 
-##### Camping Photo
+#### Camping Photo
 
 <img src="https://github.com/Emily-McNett/Machine-Learning-Portfolio/blob/main/KMeans-Clustering/Camping_Photo.JPEG" alt="Camping Photo" width="500"/>
 
@@ -65,7 +65,7 @@ Running KMeans and then the find_closest_yarn function produces the results belo
 
 From this created palette, the color choices may seem a bit strange. But, our bright blue tents are iconic to our trips and Bernat's Peacock appears to be an excellent choice for integrating these memories into a crochet project.
 
-##### Nature Photo
+#### Nature Photo
 
 <img src="https://github.com/Emily-McNett/Machine-Learning-Portfolio/blob/main/KMeans-Clustering/Nature_Photo.JPEG" alt="Nature Photo" width="500"/>
 
@@ -81,7 +81,7 @@ Running KMeans and then the find_closest_yarn function produces the results belo
 
 The created yarn pallete brightens many of the colors. However, I believe including more high-end yarns in the dataset would provide the ability to see closer color options. With this in mind, the provided set is a good base when looking to capture the colors of the image.
 
-### Reflection
+## Reflection
 
 KMeans clustering is an efficient way to gather the dominant colors of an image. The method is also quite flexable. An elbow graph helps guide the decision of how many clusters to create, but a greater palette can be created if desired. 
 
