@@ -59,9 +59,9 @@ After loading in the Camping_Photo image, the elbow graph is displayed. From thi
 
 Running KMeans and then the find_closest_yarn function produces the results below. 
 
-<img src="https://github.com/user-attachments/assets/cd1580c1-b7d4-433a-be79-bbc459f87b73" alt="Camping Photo Final Yarn Color Names" width="500"/>
-
 <img src="https://github.com/user-attachments/assets/172dc5b9-5e72-42d4-9455-dbc54109cdc7" alt="Camping Photo Final Yarn Colors" width="500"/>
+
+<img src="https://github.com/user-attachments/assets/cd1580c1-b7d4-433a-be79-bbc459f87b73" alt="Camping Photo Final Yarn Color Names" width="500"/>
 
 From this created palette, the color choices may seem a bit strange. But, our bright blue tents are iconic to our trips and Bernat's Peacock appears to be an excellent choice for integrating these memories into a crochet project.
 
