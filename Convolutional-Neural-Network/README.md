@@ -24,9 +24,9 @@ This program uses images from the [Tomato Leaves Dataset](https://www.kaggle.com
 
 Here are example images from the dataset for each category: Early blight, Late blight, and healthy.
 
-<img src="https://github.com/user-attachments/assets/6f7a3d44-56f0-4a03-886c-de44f68bb909" alt="Early Blight" width="500"/>
-<img src="https://github.com/user-attachments/assets/427c7c4b-2b8d-4243-9cae-7a05ae0200e4" alt="Late Blight" width="500"/>
-<img src="https://github.com/user-attachments/assets/4f286249-99f5-40f2-9818-21b7db943bf8" alt="Healthy" width="500"/>
+<img src="https://github.com/user-attachments/assets/6f7a3d44-56f0-4a03-886c-de44f68bb909" alt="Early Blight" width="300"/>
+<img src="https://github.com/user-attachments/assets/427c7c4b-2b8d-4243-9cae-7a05ae0200e4" alt="Late Blight" width="300"/>
+<img src="https://github.com/user-attachments/assets/4f286249-99f5-40f2-9818-21b7db943bf8" alt="Healthy" width="300"/>
 
 ## Project Run Through
 
