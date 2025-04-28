@@ -24,9 +24,9 @@ This program uses images from the [Tomato Leaves Dataset](https://www.kaggle.com
 
 Here are example images from the dataset for each category: Early blight, Late blight, and healthy.
 
-![Early Blight](https://github.com/user-attachments/assets/6f7a3d44-56f0-4a03-886c-de44f68bb909)
-![Late Blight](https://github.com/user-attachments/assets/427c7c4b-2b8d-4243-9cae-7a05ae0200e4)
-![Healthy](https://github.com/user-attachments/assets/4f286249-99f5-40f2-9818-21b7db943bf8)
+<img src="https://github.com/user-attachments/assets/6f7a3d44-56f0-4a03-886c-de44f68bb909" alt="Early Blight" width="500"/>
+<img src="https://github.com/user-attachments/assets/427c7c4b-2b8d-4243-9cae-7a05ae0200e4" alt="Late Blight" width="500"/>
+<img src="https://github.com/user-attachments/assets/4f286249-99f5-40f2-9818-21b7db943bf8" alt="Healthy" width="500"/>
 
 ## Project Run Through
 
@@ -39,6 +39,12 @@ Image data is taken in and declared as train or test based on their main directo
 The model has two convolutional layers with BatchNorm2d and ReLU. It trains using the Adam optimizer and a CrossEntropyLoss function.
 
 Training the model on 100 epochs with a 0.0001 learning rate and 32 batch size results in the accuracy getting stuck around .87. However, lowering the batch size to 16 and increasing the learning rate results in the accuracy increasing to around .89.
+
+Training the model with 50 epochs results in the model performing with an accuracy around .87. However, looking at the confusion matrix below. The difference between healthy and 'any blight' is performing at .*. 
+
+<img src="https://github.com/user-attachments/assets/6f7a3d44-56f0-4a03-886c-de44f68bb909" alt="Confusion Matrix - 50 Epochs" width="500"/>
+
+However, running on 100 epochs results in an increased overall accuracy of around *. Although this is a small jump from 50 epochs, the performance of healthy vs 'any blight' has risen to *. 
 
 Thus, the following results are based on a <b>batch size of 16</b> with a <b>learning rate of 0.001</b> running on <b>100 epochs</b>.
 
