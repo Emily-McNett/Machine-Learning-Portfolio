@@ -44,13 +44,15 @@ Training the model with 50 epochs results in the model performing with an accura
 
 <img src="https://github.com/user-attachments/assets/6f7a3d44-56f0-4a03-886c-de44f68bb909" alt="Confusion Matrix - 50 Epochs" width="500"/>
 
-However, running on 100 epochs results in an increased overall accuracy of around *. Although this is a small jump from 50 epochs, the performance of healthy vs 'any blight' has risen to *. 
+However, running on 100 epochs results in an increased overall accuracy of around *. With an addition to this, the difference between healthy and 'any blight' has increased as well.
 
 Thus, the following results are based on a <b>batch size of 16</b> with a <b>learning rate of 0.001</b> running on <b>100 epochs</b>.
 
 ### Results
 
-The final accuracy on the test set is *. The confusion matrix below details these results further. 
+The final accuracy on the test set is *. The confusion matrix below details these results further. Although this is a small jump from 50 epochs, as mentioned before, the performance of healthy vs 'any blight' has risen to *.
+
+<img src="https://github.com/user-attachments/assets/6f7a3d44-56f0-4a03-886c-de44f68bb909" alt="Confusion Matrix - 50 Epochs" width="500"/>
 
 ![Confusion_Matrix]()
 
