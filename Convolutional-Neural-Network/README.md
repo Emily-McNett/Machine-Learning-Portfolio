@@ -52,11 +52,8 @@ Thus, the following results are based on a <b>batch size of 16</b> with a <b>lea
 
 The final accuracy on the test set is 0.8812. The confusion matrix below details these results further. Although this is a small jump from 50 epochs, as mentioned before, the performance of healthy vs 'any blight' has risen to .94.
 
-<img src="https://github.com/user-attachments/assets/8ea45422-f681-4998-b7c9-e1614a3ef72a
-" alt="Confusion Matrix - 50 Epochs" width="500"/>
+<img src="https://github.com/user-attachments/assets/8ea45422-f681-4998-b7c9-e1614a3ef72a" alt="Confusion Matrix - 50 Epochs" width="500"/>
 
 ## Reflection
 
-Lowering the learning rate resulted in the final accuracy getting stuck around .87 while keeping a batch size of 32 and running 100 epochs. Decreasing the epochs appeared to help as eventually the accuracy began decreasing. Decreasing the batch size seems to have helped as well. 
-
-Although the final accuracy of the model is *. Detecting early vs late blight is not as important as detecting healthy vs any blight. As seen in the confusion matrix above, the accurate prediction of a healthy leaf is greater than either of the other categories. So, even though the accuracy is not consistently reaching 90%, the model is still effective in detecting disease.
+Although the final accuracy of the model is .8812. Detecting early vs late blight is not as important as detecting healthy vs any blight. As seen in the confusion matrix above, the accurate prediction of a healthy leaf is greater than either of the other categories. So, even though the accuracy is not consistently reaching 90%, the model is still effective in detecting disease.
