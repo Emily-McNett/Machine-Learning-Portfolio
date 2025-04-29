@@ -42,8 +42,7 @@ Training the model on 100 epochs with a 0.0001 learning rate and 32 batch size r
 
 Training the model with 50 epochs results in the model performing with an accuracy of .8638. However, looking at the confusion matrix below. The difference between healthy and 'any blight' is performing at .88. 
 
-<img src="https://github.com/user-attachments/assets/583533c7-52cf-45c8-a955-6a7cbe9326f0
-" alt="Confusion Matrix - 50 Epochs" width="500"/>
+<img src="https://github.com/user-attachments/assets/583533c7-52cf-45c8-a955-6a7cbe9326f0" alt="Confusion Matrix - 50 Epochs" width="500"/>
 
 However, running on 100 epochs results in an increased overall accuracy of .8812. With an addition to this, the difference between healthy and 'any blight' has increased as well.
 
