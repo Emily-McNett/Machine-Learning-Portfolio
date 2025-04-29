@@ -1,7 +1,7 @@
 # Machine-Learning Portfolio
 Programs Created in Machine Learning (MSCS 335) During the Spring 2025 Semester
 
-Each folder contains the commented code, data, and an individual README with a more thorough expantion of the program. Basic descriptions of each program's technique and purpose as well as the links to the program's folder can be found below.
+Each folder contains the commented code, data (if file sizes allowed), and an individual README with a more thorough expantion of the program. Basic descriptions of each program's technique and purpose as well as the links to the program's folder can be found below.
 
 ## KMeans Clustering for Yarn Selection
 ### Machine Learning Technique
