@@ -40,21 +40,21 @@ The model has two convolutional layers with BatchNorm2d and ReLU. It trains usin
 
 Training the model on 100 epochs with a 0.0001 learning rate and 32 batch size results in the accuracy getting stuck around .87. However, lowering the batch size to 16 and increasing the learning rate results in the accuracy increasing to around .89.
 
-Training the model with 50 epochs results in the model performing with an accuracy around .87. However, looking at the confusion matrix below. The difference between healthy and 'any blight' is performing at .*. 
+Training the model with 50 epochs results in the model performing with an accuracy of .8638. However, looking at the confusion matrix below. The difference between healthy and 'any blight' is performing at .88. 
 
-<img src="https://github.com/user-attachments/assets/6f7a3d44-56f0-4a03-886c-de44f68bb909" alt="Confusion Matrix - 50 Epochs" width="500"/>
+<img src="https://github.com/user-attachments/assets/583533c7-52cf-45c8-a955-6a7cbe9326f0
+" alt="Confusion Matrix - 50 Epochs" width="500"/>
 
-However, running on 100 epochs results in an increased overall accuracy of around *. With an addition to this, the difference between healthy and 'any blight' has increased as well.
+However, running on 100 epochs results in an increased overall accuracy of .8812. With an addition to this, the difference between healthy and 'any blight' has increased as well.
 
 Thus, the following results are based on a <b>batch size of 16</b> with a <b>learning rate of 0.001</b> running on <b>100 epochs</b>.
 
 ### Results
 
-The final accuracy on the test set is *. The confusion matrix below details these results further. Although this is a small jump from 50 epochs, as mentioned before, the performance of healthy vs 'any blight' has risen to *.
+The final accuracy on the test set is 0.8812. The confusion matrix below details these results further. Although this is a small jump from 50 epochs, as mentioned before, the performance of healthy vs 'any blight' has risen to .94.
 
-<img src="https://github.com/user-attachments/assets/6f7a3d44-56f0-4a03-886c-de44f68bb909" alt="Confusion Matrix - 50 Epochs" width="500"/>
-
-![Confusion_Matrix]()
+<img src="https://github.com/user-attachments/assets/8ea45422-f681-4998-b7c9-e1614a3ef72a
+" alt="Confusion Matrix - 50 Epochs" width="500"/>
 
 ## Reflection
 
