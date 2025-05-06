@@ -32,11 +32,11 @@ This program is used to identify early and late stage blight in photos of tomato
 ## Support Vector Classifier for Raisin Classification
 ### Machine Learning Technique
 
-A support vector classifier is a **.
+A support vector classifier (SVC) is a method for classifying data into different groups. The method works to find the best seperation to maximize the distance between the 'support vectors', or closest points, within each class.
 
 ### Program's Purpose
 
-This program is used to classify raisin types based on features such as *, *, *, etc. 
+This program is used to classify raisin types based on the given features of area, major and minor axis lengths, exxentricity, convex area, extent, and perimeter. Based on these features, the SVC will classify a variety of raisins as either Besni or Kecimen.
 
 ### Folder Link
 [Support Vector Classifier](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Support-Vector-Classifier)
