@@ -33,10 +33,10 @@ Then ran a grid search to find the optimal C and gamma parameters.
 
 ### Results
 
-The final accuracy on the test set is 0.9148. The confusion matrix below details these results further. 
+The final accuracy on the test set is 0.9148. The confusion matrix below details these results further. But although the difference between the misclassifications is small, the SVC more often predicts Besni raisins as the Kecimen variety.
 
 <img src="https://github.com/user-attachments/assets/878e0654-b36d-4f7f-a284-791110261f58" alt="Confusion Matrix" width="500"/>
 
 ## Reflection
 
-Although the final accuracy of the model is .9148. Detecting early vs late blight is not as important as detecting healthy vs any blight. As seen in the confusion matrix above, the accurate prediction of a healthy leaf is greater than either of the other categories. So, even though the accuracy is not consistently reaching 90%, the model is still effective in detecting disease.
+The score as accuracy (# correct) works well to measure the results. The dataset is perfectly balanced between the two varieties. As well as this, false negatives and false positives are not necessarily harmful with this data as they would be with other topics.
