@@ -29,8 +29,17 @@ This program is used to identify early and late stage blight in photos of tomato
 [Convolutional-Neural-Network](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Convolutional-Neural-Network)
 
 
-[//]: # "### Support Vector Classifier for Raisin Classification"
+## Support Vector Classifier for Raisin Classification
+### Machine Learning Technique
 
+A support vector classifier is a **.
+
+### Program's Purpose
+
+This program is used to classify raisin types based on features such as *, *, *, etc. 
+
+### Folder Link
+[Support Vector Classifier](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Support-Vector-Classifier)
 
 [//]: # "### Gini Impurity Calculation"
 
