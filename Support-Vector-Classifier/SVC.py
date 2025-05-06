@@ -38,11 +38,11 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 clf = SVC(kernel="rbf")
 clf.fit(X_train, y_train)
-#  use 2 to predict???
 gam_basic = 1/(len(X[0]))
 parameters = {"C": np.linspace(10, 100, num=10),
 "gamma": np.linspace(gam_basic/10, gam_basic*10, num=10)}
 
+# Grid Search to Find C and Gamma
 grid_search = GridSearchCV(clf, param_grid=parameters, cv=5)
 grid_search.fit(X_train, y_train)
 C_best = grid_search.best_params_["C"]
@@ -50,6 +50,7 @@ gamma_best = grid_search.best_params_["gamma"]
 
 clf = SVC(kernel="rbf", C=C_best, gamma=gamma_best)
 
+# Train
 clf.fit(X_train, y_train)
 
 print(f"Best C: ", C_best)
@@ -58,6 +59,7 @@ print(f"Best Gamma: ", gamma_best)
 score_df = pd.DataFrame(grid_search.cv_results_)
 print(score_df[['param_C', 'param_gamma', 'mean_test_score', 'rank_test_score']])
 
+# Test
 print("Score: ", clf.score(X_test, y_test))
 
 # Confusion Matrix
