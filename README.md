@@ -39,12 +39,12 @@ A support vector classifier (SVC) is a method for classifying data into differen
 This program is used to classify raisin types based on the given features of area, major and minor axis lengths, exxentricity, convex area, extent, and perimeter. Based on these features, the SVC will classify a variety of raisins as either Besni or Kecimen.
 
 ### Folder Link
-[Support Vector Classifier](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Support-Vector-Classifier)
+[Support-Vector-Classifier](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Support-Vector-Classifier)
 
-[//]: # "### Gini Impurity Calculation"
+## Random Forest to Detect Room Occupancy
+### Machine Learning Technique
 
+### Program's Purpose
 
-[//]: # "### Linear Regression with Goodreads books"
-
-
-[//]: # "### Random Forest to Detect Room Occupancy"
+### Folder Link
+[Random-Forest](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Random-Forest)
