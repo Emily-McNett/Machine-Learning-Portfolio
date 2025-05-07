@@ -1,4 +1,4 @@
-# Decision Tree for Employee Attrition Classification
+# Decision Tree to Detect Employee Attrition
 
 ## Overview
 ### Machine Learning Technique
