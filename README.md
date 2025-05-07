@@ -44,7 +44,11 @@ This program is used to classify raisin types based on the given features of are
 ## Decision Tree to Detect Employee Attrition
 ### Machine Learning Technique
 
+Decision Tree Classification is a supervised learning technique used to classify data into known classes. It uses nodes and branches to create groupings of classes for classification. A large benefit of this technique is being able to easily follow the nodes and branches to reach a conclusion. 
+
 ### Program's Purpose
+
+This program is used to classify employee attrition, or the turnover, of a company. It generates a decision tree which can be followed to determine if an employee is likely to be at the company still or if they have left. It finds the optimal depth of the tree to determine how to recieve the best results. However, trees can become very large quickly and thus a 3-depth tree has been used to explain the final results.
 
 ### Folder Link
 [Decision-Tree](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Decision-Tree)
