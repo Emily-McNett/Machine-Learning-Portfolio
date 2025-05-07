@@ -21,8 +21,7 @@ Uses a test/train split with a test size of 30% to seperate the data. Then, uses
 
 Then ran a grid search to find the optimal max depth parameter.
 
-<img src="https://github.com/user-attachments/assets/2613377a-5a9b-4c61-b7fb-79d02aa073cc
-" alt="Grid Search Results" width="500"/>
+<img src="https://github.com/user-attachments/assets/c364dc6f-5e21-4b9a-9937-484e3e25bc9a" alt="Grid Search Results" width="500"/>
 
 ### Results
 
