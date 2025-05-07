@@ -1,13 +1,13 @@
-# Random Forest for Employee Attrition Classification
+# Decision Tree for Employee Attrition Classification
 
 ## Overview
 ### Machine Learning Technique
 
-
+Decision Tree Classification is a supervised learning technique used to classify data into known classes. It uses nodes and branches to create groupings of classes for classification. A large benefit of this technique is being able to easily follow the nodes and branches to reach a conclusion. 
 
 ### Program's Purpose
 
-This program is used to classify employee attrition, or the turnover, of a company. 
+This program is used to classify employee attrition, or the turnover, of a company. It generates a decision tree which can be followed to determine if an employee is likely to be at the company still or if they have left. It finds the optimal depth of the tree to determine how to recieve the best results. However, trees can become very large quickly and thus a 3-depth tree has been used to explain the final results.
 
 ## Data
 
@@ -29,7 +29,7 @@ The final accuracy on the test set is 0.68. Below is a result of a tree with max
 
 <img src="https://github.com/user-attachments/assets/7a05914c-4ebb-473a-ba0f-b9af172b031a" alt="Decision Tree"/>
 
-In the above tree
+In the above tree, the left branches represent the True result pathways while the right branches represent the False result pathways. Starting at the top, if an employee has worked at the company for less than or exactly 13.5 years then they will follow the left branch. Then, if that same employee has a monthly income of more than $5,671 a month they will follow the right path. And finally, if this employee works for more than 43.5 hours a week on average they will follow the right branch again. This 3-depth tree concludes that this employee will have left the company.
 
 ## Reflection
 
