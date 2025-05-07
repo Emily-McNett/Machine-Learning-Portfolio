@@ -25,7 +25,7 @@ Then ran a grid search to find the optimal max depth parameter.
 
 ### Results
 
-The final accuracy on the test set is 0.68. Below is a result of a tree with max depth 3. 
+Below is a result of a tree with max depth 3. 
 
 <img src="https://github.com/user-attachments/assets/7a05914c-4ebb-473a-ba0f-b9af172b031a" alt="Decision Tree"/>
 
