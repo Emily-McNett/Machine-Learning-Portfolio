@@ -41,10 +41,10 @@ This program is used to classify raisin types based on the given features of are
 ### Folder Link
 [Support-Vector-Classifier](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Support-Vector-Classifier)
 
-## Random Forest to Detect Room Occupancy
+## Decision Tree to Detect Employee Attrition
 ### Machine Learning Technique
 
 ### Program's Purpose
 
 ### Folder Link
-[Random-Forest](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Random-Forest)
+[Decision-Tree](https://github.com/Emily-McNett/Machine-Learning-Portfolio/tree/main/Decision-Tree)
